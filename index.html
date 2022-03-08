@@ -5,20 +5,18 @@
 
          <script src="script.js"></script>
          <link rel="stylesheet" href="style.css">
-         <title>Simple Interest Calculator</title>
-         </head>
+         <title>My Own Interest Calculator</title>
+    </head>
     <body>
          <div class="maindiv">
          <h1>Simple Interest Calculator</h1><br/>
     
          Amount   <input type="number" id="rate_val"> <br/><br/>
-         Interest Rate <input type="range" id="rate" name="rate_val" min="minval 1" max="maxval 20" step="0.25"value="default_val 10.25" onchange="updateRate()"> 
-         <select id="rate" onchange="rateUpdate()">
-        <span id="rate_val 10.25"> 
-            
-        </span> <br/><br/>
-    <!----this a dropdown menu for years-----
-        No. of Years
+         Interest Rate <input type="range" id="rate" name="rate_val" min="minval 1" max="maxval 20" step="0.25"value="default_val 10.25"> 
+      
+        <span id="rate_val" + "10.25"></span> <br/><br/>
+   
+ No. of Years
 <select id="years">
        <option value="1">1</option>
        <option value="2">2</option>
@@ -31,9 +29,9 @@
        <option value="9">9</option>
        <option value="10">10</option>
 </select> <br/><br/>
-    
+ 
        <button onclick="compute()">Compute Interest</button>
-       <span id="result">     </span> <br/><br/>
+       <span id="result"> </span> <br/><br/>
     </div>
       
   </body>
@@ -43,3 +41,4 @@
 <footer>
       &#169; This calculator belongs to Eulises C.
 </footer>
+
